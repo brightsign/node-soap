@@ -87,18 +87,6 @@ along with data.
   };
 ```
 
-### Server Events
-
-Server instances emit the following events:
-
-* request - Emitted for every received messages.
-  The signature of the callback is `function(request, methodName)`.
-* headers - Emitted when the SOAP Headers are not empty.
-  The signature of the callback is `function(headers, methodName)`.
-
-The sequence order of the calls is `request`, `headers` and then the dedicated
-service method.
-
 ### SOAP Fault
 
 A service method can reply with a SOAP Fault to a client by `throw`ing an
@@ -283,9 +271,6 @@ entire Soap request (Envelope) including headers.
 Soap body contents. Useful if you don't want to log /store Soap headers.
 * soapError - Emitted when an erroneous response is received.
   Useful if you want to globally log errors.
-* response - Emitted after a response is received. The event handler receives
-the entire response body. This is emitted for all responses (both success and
-errors).
 
 
 ## WSSecurity

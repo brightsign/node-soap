@@ -5,13 +5,15 @@
   "engines": {
     "node": ">=0.8.0"
   },
-  "author": "Vinay Pulim <v@pulim.com>",
+  "author": {
+    "name": "Vinay Pulim",
+    "email": "v@pulim.com"
+  },
   "dependencies": {
     "lodash": "~2.4.1",
     "request": ">=2.9.0",
     "sax": ">=0.6",
-    "strip-bom": "~0.3.1",
-    "debug": "~0.7.4"
+    "strip-bom": "~0.3.1"
   },
   "repository": {
     "type": "git",
@@ -40,5 +42,42 @@
     "glob": "~3.2.8",
     "should": "~3.3.0",
     "timekeeper": "~0.0.4"
-  }
+  },
+  "gitHead": "80cccc2f16ac177c8da1c42ce11285de5d9abcde",
+  "bugs": {
+    "url": "https://github.com/milewise/node-soap/issues"
+  },
+  "homepage": "https://github.com/milewise/node-soap",
+  "_id": "soap@0.8.0",
+  "_shasum": "ab2766a7515fa5069f264a094e087e3fe74e2a78",
+  "_from": "soap@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "herom",
+    "email": "h.romirer@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "vpulim",
+      "email": "v@pulim.com"
+    },
+    {
+      "name": "aaron",
+      "email": "aaron.heckmann+github@gmail.com"
+    },
+    {
+      "name": "jsdevel",
+      "email": "js.developer.undefined@gmail.com"
+    },
+    {
+      "name": "herom",
+      "email": "h.romirer@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "ab2766a7515fa5069f264a094e087e3fe74e2a78",
+    "tarball": "http://registry.npmjs.org/soap/-/soap-0.8.0.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/soap/-/soap-0.8.0.tgz",
+  "readme": "ERROR: No README data found!"
 }
